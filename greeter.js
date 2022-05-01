@@ -30,7 +30,7 @@ const mimeType = {
 };
 
 // Creating a server and listening at port 1800
-http.createServer( (req, res) => {
+const app = http.createServer( (req, res) => {
 	
 
 	// Parsing the requested URL
@@ -96,3 +96,7 @@ http.createServer( (req, res) => {
 }).listen(PORT);
 
 console.log(`Server listening on port ${PORT}`);
+
+// Export the Express API
+module.exports = app;
+
