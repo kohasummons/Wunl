@@ -1,0 +1,20 @@
+{
+  "name": "wunl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greeter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohasummons/Wunl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kohasummons/Wunl/issues"
+  },
+  "homepage": "https://github.com/kohasummons/Wunl#readme"
+}
